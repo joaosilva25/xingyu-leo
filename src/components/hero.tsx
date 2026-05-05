@@ -23,20 +23,20 @@ export default function Hero() {
           {[...Array(6)].map((_, i) => (
             <div key={i} className="flex items-center gap-12 px-8">
               <div className="flex items-center gap-4">
-                <Gem className="w-5 h-5 text-red-500" strokeWidth={1.3}/>
-                <span className="text-red-500 text-sm font-medium tracking-widest uppercase">Especialista em Semijoias</span>
+                <Gem className="w-5 h-5 text-white" strokeWidth={1.3}/>
+                <span className="text-white text-sm font-medium tracking-widest uppercase">Especialista em Semijoias</span>
               </div>
               <div className="flex items-center gap-4">
-                <Sparkles className="w-5 h-5 text-red-500" strokeWidth={1.3}/>
-                <span className="text-red-500 text-sm font-medium tracking-widest uppercase">Joias de Fábrica</span>
+                <Sparkles className="w-5 h-5 text-white" strokeWidth={1.3}/>
+                <span className="text-white text-sm font-medium tracking-widest uppercase">Joias de Fábrica</span>
               </div>
               <div className="flex items-center gap-4">
-                <Gem className="w-5 h-5 text-red-500" strokeWidth={1.3} />
-                <span className="text-red-500  text-sm font-medium tracking-widest uppercase">Qualidade Premium</span>
+                <Gem className="w-5 h-5 text-white" strokeWidth={1.3} />
+                <span className="text-white text-sm font-medium tracking-widest uppercase">Qualidade Premium</span>
               </div>
               <div className="flex items-center gap-4">
-                <Sparkles className="w-5 h-5 text-red-500" strokeWidth={1.3} />
-                <span className="text-red-500  text-sm font-medium tracking-widest uppercase">Acabamento Impecável</span>
+                <Sparkles className="w-5 h-5 text-white" strokeWidth={1.3} />
+                <span className="text-white text-sm font-medium tracking-widest uppercase">Acabamento Impecável</span>
               </div>
             </div>
           ))}
