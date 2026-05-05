@@ -1,6 +1,5 @@
 import { Gem, Mouse, Sparkles } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import logo from '../assets/XY.png';
 
 export default function Hero() {
   const [showScrollHint, setShowScrollHint] = useState(true);
