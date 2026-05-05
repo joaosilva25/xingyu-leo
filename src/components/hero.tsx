@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
     <>
-      <div className="w-full bg-black border border-red-900/30 backdrop-blur-md py-4 overflow-hidden fixed top-0 left-0 right-0 z-50" style={
+      <div className="w-full bg-black border border-white/30 backdrop-blur-md py-4 overflow-hidden fixed top-0 left-0 right-0 z-50" style={
         { backdropFilter: 'blur(15px)' }
       }>
         <div className="flex animate-marquee whitespace-nowrap">
