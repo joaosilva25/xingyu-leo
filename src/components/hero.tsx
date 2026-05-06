@@ -32,12 +32,11 @@ export default function Hero() {
               LEO CHINA
             </h1>
 
-            {/* Decorative line */}
-            <div className="w-16 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent mb-6" />
+        
 
             {/* Subtitle */}
             <p
-              className="text-xs md:text-sm text-white/85 uppercase tracking-[0.2em] leading-relaxed"
+              className="text-xs md:text-sm text-white/85 uppercase tracking-[0.2em] leading-relaxed mt-2"
               style={{
                 fontFamily: "'Parabolica', sans-serif",
                 fontWeight: 500,
