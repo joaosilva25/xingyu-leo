@@ -25,7 +25,7 @@ export default function Hero() {
               className="text-4xl md:text-9xl text-white uppercase leading-[0.85] tracking-[0.1em]  mb-3"
               style={{
                 fontFamily: "'Parabolica', sans-serif",
-                fontWeight: 500,
+                fontWeight: 600,
                 textShadow: "0 4px 30px rgba(0,0,0,0.4)",
               }}
             >
@@ -33,7 +33,13 @@ export default function Hero() {
             </h1>
 
             {/* Decorative line */}
-            <div className="w-16 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent mb-6" />
+            <div className="relative w-16 h-px mb-6 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-red-500 to-transparent" />
+              <div
+                className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-transparent via-white to-transparent animate-shine"
+                style={{ filter: "drop-shadow(0 0 6px rgba(255,255,255,0.8))" }}
+              />
+            </div>
 
             {/* Subtitle */}
             <p
