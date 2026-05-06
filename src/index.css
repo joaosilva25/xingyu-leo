@@ -28,6 +28,34 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Parabolica';
+  src: url('./fonts/parabolica-font-family/ParabolicaTest-Regular-BF643e085b3654e.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parabolica';
+  src: url('./fonts/parabolica-font-family/ParabolicaTest-Medium-BF643e085ae3392.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parabolica';
+  src: url('./fonts/parabolica-font-family/ParabolicaTest-Bold-BF643e085ad372a.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parabolica';
+  src: url('./fonts/parabolica-font-family/ParabolicaTest-Black-BF643e085a31d57.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0%);

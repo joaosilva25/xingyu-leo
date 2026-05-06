@@ -20,15 +20,28 @@ export default function Hero() {
           {/* LEFT */}
           <div className="text-white flex flex-col items-center">
             {/* Title */}
-            <h1 className="text-5xl md:text-7xl font-bold text-white tracking-wide mb-2">
+            <h1
+              className="text-5xl md:text-9xl text-white uppercase leading-[0.85] tracking-wide mb-3"
+              style={{
+                fontFamily: "'Parabolica', sans-serif",
+                fontWeight: 600,
+                textShadow: "0 4px 30px rgba(0,0,0,0.4)",
+              }}
+            >
               LEO CHINA
             </h1>
 
             {/* Decorative line */}
-            <div className="w-12 h-0.5 bg-red-500 mb-5" />
+            <div className="w-16 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent mb-6" />
 
             {/* Subtitle */}
-            <p className="text-base md:text-lg text-white/70 font-light">
+            <p
+              className="text-sm md:text-sm text-white/70 uppercase tracking-[0.1em] leading-relaxed"
+              style={{
+                fontFamily: "'Parabolica', sans-serif",
+                fontWeight: 400,
+              }}
+            >
               Escolha o caminho abaixo, eu quero ajudar você.
             </p>
 
@@ -41,8 +54,8 @@ export default function Hero() {
               }`}
             >
               <div className="flex flex-col items-center gap-2">
-                <span className="text-[10px] tracking-[0.3em] text-white/40 uppercase">
-                  Scroll
+                <span className="text-[8px] tracking-[0.3em] text-white/40 uppercase">
+                  Rolar para baixo
                 </span>
                 <div className="w-px h-8 bg-gradient-to-b from-white/40 to-transparent relative overflow-hidden">
                   <div className="absolute top-0 left-0 w-full h-3 bg-white/60 animate-[slideDown_1.5s_ease-in-out_infinite]" />
