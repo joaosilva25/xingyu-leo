@@ -105,6 +105,97 @@
   }
 }
 
+@keyframes neonPulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.5), 0 0 30px rgba(239, 68, 68, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(239, 68, 68, 0.8), 0 0 50px rgba(239, 68, 68, 0.5);
+  }
+}
+
+@keyframes neonBorder {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes neonPath {
+  0% {
+    stroke-dashoffset: 400;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-neonPath {
+  animation: neonPath 3s linear infinite;
+}
+
+@keyframes borderTop {
+  0%, 25%, 100% {
+    opacity: 0.2;
+  }
+  0%, 25% {
+    opacity: 1;
+  }
+}
+
+@keyframes borderRight {
+  0%, 25%, 50%, 100% {
+    opacity: 0.2;
+  }
+  25%, 50% {
+    opacity: 1;
+  }
+}
+
+@keyframes borderBottom {
+  0%, 50%, 75%, 100% {
+    opacity: 0.2;
+  }
+  50%, 75% {
+    opacity: 1;
+  }
+}
+
+@keyframes borderLeft {
+  0%, 75%, 100% {
+    opacity: 0.2;
+  }
+  75%, 100% {
+    opacity: 1;
+  }
+}
+
+.animate-borderTop {
+  animation: borderTop 2s linear infinite;
+}
+
+.animate-borderRight {
+  animation: borderRight 2s linear infinite;
+}
+
+.animate-borderBottom {
+  animation: borderBottom 2s linear infinite;
+}
+
+.animate-borderLeft {
+  animation: borderLeft 2s linear infinite;
+}
+
+.animate-neonBorder {
+  animation: neonBorder 3s linear infinite;
+}
+
+.animate-neonPulse {
+  animation: neonPulse 2s ease-in-out infinite;
+}
+
 .animate-marquee {
   animation: marquee 20s linear infinite;
 }
