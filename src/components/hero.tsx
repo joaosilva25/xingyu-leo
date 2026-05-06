@@ -21,7 +21,7 @@ export default function Hero() {
           <div className="text-white flex flex-col items-center">
             {/* Title */}
             <h1
-              className="text-5xl md:text-9xl text-white uppercase leading-[0.85] tracking-wide mb-3"
+              className="text-4xl md:text-9xl text-white uppercase leading-[0.85] tracking-wide mb-3"
               style={{
                 fontFamily: "'Parabolica', sans-serif",
                 fontWeight: 600,
@@ -36,7 +36,7 @@ export default function Hero() {
 
             {/* Subtitle */}
             <p
-              className="text-sm md:text-sm text-white/70 uppercase tracking-[0.1em] leading-relaxed"
+              className="text-sm md:text-sm text-white/70 uppercase tracking-[0.2em] leading-relaxed"
               style={{
                 fontFamily: "'Parabolica', sans-serif",
                 fontWeight: 400,
@@ -54,7 +54,7 @@ export default function Hero() {
               }`}
             >
               <div className="flex flex-col items-center gap-2">
-                <span className="text-[8px] tracking-[0.3em] text-white/40 uppercase">
+                <span className="text-[8px] tracking-[0.3em] text-white/60 uppercase">
                   Rolar para baixo
                 </span>
                 <div className="w-px h-8 bg-gradient-to-b from-white/40 to-transparent relative overflow-hidden">
