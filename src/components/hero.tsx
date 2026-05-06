@@ -25,18 +25,19 @@ export default function Hero() {
               className="text-4xl md:text-9xl text-white uppercase leading-[0.85] tracking-[0.1em]  mb-3"
               style={{
                 fontFamily: "'Parabolica', sans-serif",
-                fontWeight: 600,
+                fontWeight: 500,
                 textShadow: "0 4px 30px rgba(0,0,0,0.4)",
               }}
             >
               LEO CHINA
             </h1>
 
-        
+            {/* Decorative line */}
+            <div className="w-16 h-px bg-gradient-to-r from-transparent via-red-500 to-transparent mb-6" />
 
             {/* Subtitle */}
             <p
-              className="text-xs md:text-sm text-white/85 uppercase tracking-[0.2em] leading-relaxed mt-2"
+              className="text-xs md:text-sm text-white/85 uppercase tracking-[0.2em] leading-relaxed"
               style={{
                 fontFamily: "'Parabolica', sans-serif",
                 fontWeight: 500,
