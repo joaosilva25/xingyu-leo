@@ -1,3 +1,4 @@
+import { ChevronDown } from "lucide-react";
 import { useEffect, useState } from "react";
 export default function Hero() {
   const [showScrollHint, setShowScrollHint] = useState(true);
@@ -21,7 +22,7 @@ export default function Hero() {
           <div className="text-white flex flex-col items-center">
             {/* Title */}
             <h1
-              className="text-4xl md:text-9xl text-white uppercase leading-[0.85] tracking-wide mb-3"
+              className="text-4xl md:text-9xl text-white uppercase leading-[0.85] tracking-[0.1em]  mb-3"
               style={{
                 fontFamily: "'Parabolica', sans-serif",
                 fontWeight: 600,
@@ -53,13 +54,22 @@ export default function Hero() {
                   : "opacity-0 -translate-y-3 pointer-events-none"
               }`}
             >
-              <div className="flex flex-col items-center gap-2">
-                <span className="text-[8px] tracking-[0.3em] text-white/60 uppercase">
-                  Rolar para baixo
-                </span>
-                <div className="w-px h-8 bg-gradient-to-b from-white/40 to-transparent relative overflow-hidden">
-                  <div className="absolute top-0 left-0 w-full h-3 bg-white/60 animate-[slideDown_1.5s_ease-in-out_infinite]" />
-                </div>
+              <div className="flex flex-col items-center -space-y-1">
+                <ChevronDown
+                  className="w-6 h-6 text-red-500 animate-[chevronPulse_2s_ease-in-out_infinite]"
+                  strokeWidth={2}
+                  style={{ filter: "drop-shadow(0 0 6px rgba(239,68,68,0.8))" }}
+                />
+                <ChevronDown
+                  className="w-6 h-6 text-red-400 animate-[chevronPulse_2s_ease-in-out_infinite_0.3s]"
+                  strokeWidth={2}
+                  style={{ filter: "drop-shadow(0 0 4px rgba(239,68,68,0.6))" }}
+                />
+                <ChevronDown
+                  className="w-6 h-6 text-red-300/70 animate-[chevronPulse_2s_ease-in-out_infinite_0.6s]"
+                  strokeWidth={2}
+                  style={{ filter: "drop-shadow(0 0 3px rgba(239,68,68,0.4))" }}
+                />
               </div>
             </div>
           </div>

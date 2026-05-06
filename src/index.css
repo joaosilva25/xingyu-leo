@@ -79,6 +79,32 @@
   }
 }
 
+@keyframes mouseScroll {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  75% {
+    transform: translateY(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+@keyframes chevronPulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(4px);
+  }
+}
+
 .animate-marquee {
   animation: marquee 20s linear infinite;
 }
@@ -86,22 +112,27 @@
 body {
   font-family: 'Sora', sans-serif;
   background-color: #000000;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-/* Custom scrollbar styling */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom scrollbar styling (disabled) */
 ::-webkit-scrollbar {
-  width: 4px;
+  display: none;
 }
 
 ::-webkit-scrollbar-track {
-  background: black;
+  display: none;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ef4444;
-  border-radius: 10px;
+  display: none;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #dc2626;
+  display: none;
 }
