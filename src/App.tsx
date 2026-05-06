@@ -19,8 +19,11 @@ function App() {
           <Hero />
         </div>
 
+        {/* Gradient overlay for smooth transition to card */}
+        <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-black to-transparent z-10" />
+
         {/* Card over the image */}
-        <div className="relative z-10 px-4 pb-8 md:pb-12 max-w-6xl mx-auto w-full">
+        <div className="relative z-20 px-4 pb-8 md:pb-12 max-w-6xl mx-auto w-full">
           <Card imageSrc={banner1} link="https://www.youtube.com/@leochinabr" />
         </div>
       </div>

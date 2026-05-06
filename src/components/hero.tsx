@@ -37,10 +37,10 @@ export default function Hero() {
 
             {/* Subtitle */}
             <p
-              className="text-sm md:text-sm text-white/70 uppercase tracking-[0.2em] leading-relaxed"
+              className="text-xs md:text-sm text-white/85 uppercase tracking-[0.2em] leading-relaxed"
               style={{
                 fontFamily: "'Parabolica', sans-serif",
-                fontWeight: 400,
+                fontWeight: 500,
               }}
             >
               Escolha o caminho abaixo, eu quero ajudar você.
