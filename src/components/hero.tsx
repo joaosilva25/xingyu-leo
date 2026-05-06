@@ -43,7 +43,7 @@ export default function Hero() {
                 fontWeight: 500,
               }}
             >
-              Escolha o caminho abaixo, eu quero ajudar você.
+              Escolha o caminho abaixo<br /><strong>quero ajudar você</strong>
             </p>
 
             {/* Scroll hint (mobile only) */}
