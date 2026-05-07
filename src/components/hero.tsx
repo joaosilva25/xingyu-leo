@@ -19,7 +19,13 @@ export default function Hero() {
         {/* Content */}
         <div className="relative z-10 mt-1 px-6 md:px-20 mx-auto md:py-24 w-full grid md:grid-cols-1 gap-12 items-center text-center md:text-center">
           {/* LEFT */}
-          <div className="text-white flex flex-col items-center mt-6">
+          <div
+            className="text-white flex flex-col items-center mt-6 py-6"
+            style={{
+              background:
+                "radial-gradient(ellipse 90% 80% at 50% 50%, rgba(0,0,0,0.5) 0%, transparent 60%)",
+            }}
+          >
             {/* Title */}
             <h1
               className="text-4xl md:text-9xl text-white uppercase leading-[0.85] tracking-[0.08em]  mb-3"
