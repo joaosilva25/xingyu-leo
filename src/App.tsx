@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Card from "./components/Card";
 import BannerMobile from "./assets/BannerMobile.jpeg";
 import banner1 from "./assets/BANNER12.png";
+import banner2 from "./assets/LCBio.png";
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
         <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-black to-transparent z-10" />
 
         {/* Card over the image */}
-        <div className="relative z-20 px-4 pb-8 md:pb-12 max-w-6xl mx-auto w-full">
+        <div className="relative z-20 px-4 pb-8 md:pb-12 max-w-6xl mx-auto w-full gap-6 flex flex-col">
           <Card imageSrc={banner1} link="https://www.youtube.com/@leochinabr" />
+          <Card imageSrc={banner2} link="https://www.youtube.com/@leochinabr" />
         </div>
       </div>
       <Footer />
