@@ -4,6 +4,7 @@ import Card from "./components/Card";
 import BannerMobile from "./assets/BannerMobile.jpeg";
 import banner1 from "./assets/BANNER12.png";
 import banner2 from "./assets/LCBio.png";
+import semijoiasBanner from "./assets/semijoiasdobasico.jpg";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <div className="relative z-20 px-4 pb-8 md:pb-12 max-w-6xl mx-auto w-full gap-6 flex flex-col">
           <Card imageSrc={banner1} link="https://www.youtube.com/@leochinabr" />
           <Card imageSrc={banner2} link="https://comunidadelcn.leochina.com.br/" />
+          <Card imageSrc={semijoiasBanner} link="https://semijoiasdobasico.leochina.com.br/"/>
         </div>
       </div>
       <Footer />
