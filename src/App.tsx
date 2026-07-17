@@ -5,6 +5,7 @@ import BannerMobile from "./assets/BannerMobile.jpeg";
 import banner1 from "./assets/BANNER12.png";
 import banner2 from "./assets/LCBio.png";
 import semijoiasBanner from "./assets/semijoiasdobasico.jpg";
+import mmdsBanner from "./assets/MMDS - BANNER BIO 1920X1080.png";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Card imageSrc={banner1} link="https://www.youtube.com/@leochinabr" />
           <Card imageSrc={banner2} link="https://comunidadelcn.leochina.com.br/" />
           <Card imageSrc={semijoiasBanner} link="https://semijoiasdobasico.leochina.com.br/"/>
+          <Card imageSrc={mmdsBanner} link="https://mercadomilionario.leochina.com.br/" />
         </div>
       </div>
       <Footer />
